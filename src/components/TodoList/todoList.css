@@ -1,0 +1,14 @@
+.header {
+  height: 12.5rem;
+  width: 100%;
+  background-color: var(--light-primary);
+  padding-top: 3rem;
+}
+
+.task-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2.5rem 6.25rem;
+  gap: 1.2rem;
+}
