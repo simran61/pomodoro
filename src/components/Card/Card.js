@@ -58,17 +58,22 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
         </span>
         <p className="mt-3">{taskObj.Description}</p>
 
-        <div className="options">
-          <i
-            className="far fa-edit margin-sm"
-            style={{ color: colors[index % 5].primaryColor }}
-            onClick={() => setModal(true)}
-          ></i>
-          <i
-            className="fas fa-trash-alt"
-            style={{ color: colors[index % 5].primaryColor }}
-            onClick={handleDelete}
-          ></i>
+        <div className="show-flex">
+          <button className="btn btn-primary btn-pomodoro mt-2">
+            Start Pomodoro
+          </button>
+          <div className="options">
+            <i
+              className="far fa-edit margin-sm"
+              style={{ color: colors[index % 5].primaryColor }}
+              onClick={() => setModal(true)}
+            ></i>
+            <i
+              className="fas fa-trash-alt"
+              style={{ color: colors[index % 5].primaryColor }}
+              onClick={handleDelete}
+            ></i>
+          </div>
         </div>
       </div>
 
