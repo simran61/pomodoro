@@ -1,0 +1,40 @@
+.card-wrapper {
+  width: 16.8rem;
+  height: 12.5rem;
+  box-shadow: 0 0 1.25rem var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top {
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder {
+  width: 100%;
+  height: 98%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--white-color);
+}
+
+.card-header {
+  font-weight: 600;
+  margin-top: 5px;
+  width: fit-content;
+  padding: 0.3rem 0.6rem !important;
+  text-align: center;
+}
+
+.options {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.25rem;
+}
+
+.margin-sm {
+  margin-right: 0.5rem;
+}
