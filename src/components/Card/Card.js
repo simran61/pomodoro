@@ -61,12 +61,12 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
         <div className="options">
           <i
             className="far fa-edit margin-sm"
-            style={{ color: colors[index % 5].primaryColor, cursor: "pointer" }}
+            style={{ color: colors[index % 5].primaryColor }}
             onClick={() => setModal(true)}
           ></i>
           <i
             className="fas fa-trash-alt"
-            style={{ color: colors[index % 5].primaryColor, cursor: "pointer" }}
+            style={{ color: colors[index % 5].primaryColor }}
             onClick={handleDelete}
           ></i>
         </div>

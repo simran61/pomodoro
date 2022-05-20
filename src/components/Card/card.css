@@ -35,6 +35,10 @@
   bottom: 1.25rem;
 }
 
+.options > i {
+  cursor: pointer;
+}
+
 .margin-sm {
   margin-right: 0.5rem;
 }
